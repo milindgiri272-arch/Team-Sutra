@@ -1,0 +1,23 @@
+{
+  "name": "agriloss-farmer-decision-platform",
+  "version": "2.0.0",
+  "description": "AgriLoss - Farmer Decision-Support Platform with Privacy-Protected OTP Authentication",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "agriculture",
+    "farmer-support",
+    "apmc-mandi",
+    "otp-authentication",
+    "privacy-dpdp",
+    "agritech"
+  ],
+  "author": "AgriLoss Team",
+  "license": "MIT"
+}

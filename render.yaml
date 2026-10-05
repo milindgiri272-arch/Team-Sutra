@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: agriloss-farmer-app
+    env: node
+    plan: free
+    buildCommand: ""
+    startCommand: "node server.js"
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: AUTH_SALT
+        generateValue: true
